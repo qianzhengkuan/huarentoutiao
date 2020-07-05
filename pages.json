@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					// 取消原生导航栏
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/video/video",
+			"style": {}
+		}, {
+			"path": "pages/community/community",
+			"style": {}
+		}, {
+			"path": "pages/my/my",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "华人头条",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#149da3"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#149da3",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/xw.png",
+				"selectedIconPath": "static/tabbar/xw-a.png"
+			},
+			{
+				"pagePath": "pages/video/video",
+				"text": "视频",
+				"iconPath": "static/tabbar/sp.png",
+				"selectedIconPath": "static/tabbar/sp-a.png"
+			},
+			{
+				"pagePath": "pages/community/community",
+				"text": "社区",
+				"iconPath": "static/tabbar/sq.png",
+				"selectedIconPath": "static/tabbar/sq-a.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/wd.png",
+				"selectedIconPath": "static/tabbar/wd-a.png"
+			}
+
+		]
+	}
+}
